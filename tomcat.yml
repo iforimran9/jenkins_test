@@ -33,7 +33,7 @@
  
     - name: download & unarchive tomcat10 
       unarchive:
-        src: https://downloads.apache.org/tomcat/tomcat-10/v10.1.10/bin/apache-tomcat-10.1.10.tar.gz 
+        src: https://archive.apache.org/dist/tomcat/tomcat-10/v10.1.10/
         dest: /opt/tomcat10
         remote_src: yes
         extra_opts: [--strip-components=1]
